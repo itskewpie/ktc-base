@@ -31,4 +31,6 @@ default[:base][:includes].concat %w{
   ntp
   tmux::package
   chef-client::delete_validation
+  collectd-graphite::collectd-client
+  ktc-sensu::client
 }

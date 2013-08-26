@@ -17,6 +17,12 @@ group "ktc" do
   cookbook 'yum',
     github: 'spheromak/yum',
     branch: 'integration'
+  cookbook 'collectd-graphite',
+    github: 'cloudware-cookbooks/collectd-graphite',
+    branch 'develop'
+  cookbook 'ktc-sensu',
+    github: 'cloudware-cookbooks/ktc-sensu',
+    branch 'develop'
 end
 
 group "other" do
@@ -27,7 +33,6 @@ group "other" do
   cookbook 'timezone',
     github: 'secondmarket-cookbooks/timezone'
 end
-
 
 group "integration" do
   cookbook 'chef-solo-search',
