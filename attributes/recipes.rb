@@ -32,4 +32,5 @@ default[:base][:includes].concat %w{
   chef-client::delete_validation
   ktc-monitor::client
   ktc-logging::client
+  ktc-base::processes
 }
