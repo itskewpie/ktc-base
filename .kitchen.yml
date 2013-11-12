@@ -22,7 +22,6 @@ suites:
   - recipe[ktc-testing]
   - recipe[ktc-etcd]
   - recipe[ktc-sensu::master]
-  - recipe[sensu::default]
   - recipe[collectd::client]
   - recipe[ktc-base]
   attributes: 
